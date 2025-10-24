@@ -4,25 +4,11 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        DaysOfWeek MyFavoriteDay;
+        string MyName = "Евгения";
+        Console.WriteLine("Привет, Мир");
+        Console.WriteLine();
+        Console.WriteLine($"Меня зовут {MyName}");
 
-        MyFavoriteDay = DaysOfWeek.Friday;
-
-        Console.WriteLine(MyFavoriteDay);
+        Console.ReadKey();
     }
-}
-
-enum DaysOfWeek : byte
-{
-    Tuesday,
-    Monday,
-    Wednesday,
-    Friday
-}
-
-enum Semaphore
-{
-    Red = 100,
-    Yellow = 200,
-    Green = 300
 }
