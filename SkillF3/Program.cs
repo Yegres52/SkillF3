@@ -4,12 +4,8 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-
-        string myName;
-        myName = "Jane";
-
+        const string myName = "Janes";
         Console.WriteLine(myName);
-
         Console.ReadKey();
     }
 }
